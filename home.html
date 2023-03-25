@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <link rel="shortcut icon" href="/images/Png.png" type="image/x-icon">
       <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +8,11 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>birdor</title>
+      <title>Floppa</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
+      <link rel="shortcut icon" href="/images/Png.png" type="image/x-icon">
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
@@ -26,7 +26,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
    </head>
    <!-- body -->
-   <body class="main-layout inner_page">
+   <body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="/images/meme-cat.gif" alt="" /></div>
@@ -34,9 +34,9 @@
       <!-- end loader -->
       <div id="mySidepanel" class="sidepanel">
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-         <a  href="home.html">Home</a>
+         <a class="active" href="index.html">Home</a>
          <a href="about.html">About</a>
-         <a class="active" href="birds.html">Our Birds</a>
+         <a href="cat.html">Our Floppa</a>
          <a href="testimonial.html">Testimonial</a>
          <a href="contact.html">Contact</a>
       </div>
@@ -63,13 +63,89 @@
          </div>
       </header>
       <!-- end header -->
+      <!-- start slider section -->
+      <div class=" banner_main">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="bluid">
+                     <h1>Floppa <br><span class="black">Cat<br></span></h1>
+                     <p>Welcome<br> The Floppa Meme</p>
+                     <a class="read_more" href="birds.html">our Floppa </a>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                 <div class="banner_img">
+                                    <figure><img src="/images/f1.png" style="width: 403px;height: 275px; object-fit: contain;" alt="#"/></figure>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                 <div class="banner_img">
+                                    <figure><img src="/images/f2.webp" style="width: 403px;height: 275px; object-fit: contain;" alt="#"/></figure>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                 <div class="banner_img">
+                                    <figure><img src="./images/f3.jpg" style="width: 403px;height: 275px; object-fit: contain;" alt="#"/></figure>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end slider section -->
+      <!-- about -->
+      <div id="about" class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 offset-md-6">
+                  <div class="titlepage text_align_right">
+                     <h2>About us our floppa</h2>
+                     <p>The caracal is a slender, moderately sized cat characterised by a robust build, a short face, long canine teeth, tufted ears, and long legs. It reaches nearly 40 - 50 cm (16 - 20 in) at the shoulder. The tan, bushy tail extends to the hocks. The caracal is sexually dimorphic; the females are smaller than the males in most bodily parameters.</p>
+                     <a class="read_more" href="about.html">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end about -->
       <!-- our birds -->
       <div class="birds">
          <div class="container">
             <div class="row">
                <div class="col-md-7">
                   <div class="titlepage">
-                     <h2>The Floppa</h2>
+                     <h2>Our Floppa</h2>
                      <p> The caracal is a slender, moderately sized cat characterised by a robust build, a short face, long canine teeth, tufted ears, and long legs. It reaches nearly 40 - 50 cm (16 - 20 in) at the shoulder. The tan, bushy tail extends to the hocks. The caracal is sexually dimorphic; the females are smaller than the males in most bodily parameters.</p>
                   </div>
                </div>
@@ -276,13 +352,157 @@
          </div>
       </div>
       <!-- end our birds -->
+      <!-- testimonial -->
+      <div class="testimonial">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-9 offset-md-3">
+                  <div class="titlepage text_align_right">
+                     <h2>Our Testimonial</h2>
+                     <span>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </span>
+                  </div>
+               </div>
+            </div>
+            <div class="row d_flex">
+               <div class="col-md-7">
+                  <div id="testimo" class="carousel slide our_testimonial" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimo" data-slide-to="1"></li>
+                        <li data-target="#testimo" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="testomoniam_text">
+                                    <i><img src="images/clint.jpg" alt="#"/></i>
+                                    <h3>Liodou</h3>
+                                    <span>ceo</span>
+                                    <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="testomoniam_text">
+                                    <i><img src="images/clint.jpg" alt="#"/></i>
+                                    <h3>Liodou</h3>
+                                    <span>ceo</span>
+                                    <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption posi_in">
+                                 <div class="testomoniam_text">
+                                    <i><img src="images/clint.jpg" alt="#"/></i>
+                                    <h3>Liodou</h3>
+                                    <span>ceo</span>
+                                    <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="bird_img">
+                     <figure><img src="images/Png.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end testimonial -->
+      <!-- newsletter -->
+      <div class="newsletter">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-9">
+                  <div class="titlepage text_align_left">
+                     <h2>Newsletter</h2>
+                     <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <form class="newslatter_form">
+                     <input class="news" placeholder="Enter your email" type="text" name="Enter your email">
+                     <button class="subs_btn">subscribe</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end newsletter -->
+      <!--  contact -->
+      <div  class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12 no_ld">
+                  <div class="titlepage text_align_right">
+                     <h2>Contact Us</h2>
+                  </div>
+               </div>
+               <div class="col-md-5 ">
+                  <div class="contact_img">
+                     <figure><img src="/images/aLMMSmGg_400x400.jpg" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class=" col-md-6 offset-md-1">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 no_mo">
+                           <div class="titlepage text_align_right">
+                              <h2>Contact Us</h2>
+                           </div>
+                        </div>
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Your Name" type="type" name="Your Name"> 
+                        </div>
+                        <div class="col-md-6">
+                           <input class="contactus" placeholder="Phone number" type="type" name="Phone number">                          
+                        </div>
+                        <div class="col-md-6">
+                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end contact -->
       <!-- footer -->
       <footer>
          <div class="footer">
             <div class="container">
                <div class="row">
                   <div class="col-md-10 offset-md-1 border-top1">
-                     <a class="logo_footer" href="index.html"><img src="images/logo.png" alt="#" /></a>
+                     <a class="logo_footer" href="index.html"><img src="https://api.logo.com/api/v2/images?logo=logo_f325bf53-1d3a-4e95-840c-b322ed30b14b&format=webp&margins=0&quality=60&width=500&background=transparent&u=1679717157" alt="#" /></a>
                   </div>
                   <div class="col-md-5">
                      <div class="reader">
